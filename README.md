@@ -7,7 +7,6 @@
 
 `grok-api-proxy` 是一个基于 [Cloudflare Workers](https://workers.cloudflare.com/) 的代理服务，用于中转 [xAI Grok API](https://api.x.ai/) 请求。它利用 Cloudflare 的全球边缘网络加速对 `https://api.x.ai/v1/chat/completions` 的访问，客户端需提供自己的 xAI API 密钥，确保灵活性和安全性。
 
-- **创建日期**: 2025年2月19日
 - **部署地址**: [https://grok.bkgr.workers.dev/](https://grok.bkgr.workers.dev/)
 - **GitHub**: [https://github.com/tianrking/grok-api-proxy](https://github.com/tianrking/grok-api-proxy)
 
